@@ -1,0 +1,22 @@
+Game was designed to keep in mind as follows : 
+
+1. board size is max 100
+
+2. Normal dice can throw any number b/w 1 to 6
+3. Normal dice output should not be less or equal to 0.
+4. Normal dice output should not be more than 6. 
+
+5. Crooked dice will always throw a even number 
+6. Crooked dice output can be 2,4,6
+
+7. User can choose , how many turns want to play 
+8. for providing no input for turns , player can provide max three incorrect input
+9. If not provided correct input then game will continue with Default number of turns (which is 10).
+
+10. User can select WHich dice he want to use ( Normal or crooked) 
+11. Until user didnt select the correct dice to play , game will not start.
+
+12. Max board size is 100, so player cannot move beyond 100.
+
+13. before end point , if player reaches a number <100 but his current position + dice output >100 then player will not move from his current location.
+And needs to roll dice again.
